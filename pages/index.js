@@ -83,7 +83,7 @@ export default function Home() {
                 overflow: 'auto'
             }}>
                 {musicList.map((name) => (
-                    <div style={{display: 'flex'}}>
+                    <div style={{display: 'flex'}} key={name}>
                         <button onClick={(e) => setMusic(name)} style={{
                             display: 'block',
                             background: name === currentMusic ? 'red' : 'none',
