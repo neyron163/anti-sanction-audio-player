@@ -1,0 +1,53 @@
+.container {
+    max-height: 500px;
+    overflow-y: auto;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container::-webkit-scrollbar {
+    width: 0;
+}
+
+.item {
+    display: block;
+    border: none;
+    cursor: pointer;
+    height: 48px;
+    background: none;
+    width: 100%;
+    text-align: left;
+}
+
+.activeItem {
+    background: rgba(215, 215, 215, 0.5);
+}
+
+.containerItem {
+    display: flex;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.icon {
+    width: 50px;
+}
+
+.containerItem:last-child {
+    margin-bottom: 0;
+}
+
+.delete {
+    width: 15px;
+}
+
+.deleteContainer {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.flex {
+    display: flex;
+}

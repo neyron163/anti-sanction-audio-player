@@ -1,0 +1,14 @@
+.container {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+    }
+}
